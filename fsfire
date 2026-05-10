@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FSFire</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #111;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+      background: #222;
+      font-size: 24px;
+      font-weight: bold;
+      color: red;
+    }
+
+    .container {
+      padding: 40px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background: red;
+      border: none;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background: darkred;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      background: #222;
+      font-size: 12px;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  FSFire Website 🚀
+</header>
+
+<div class="container">
+  <h1>Welcome to My Website</h1>
+  <p>This is a simple clean homepage.</p>
+
+  <button class="btn" onclick="alert('Hello Farhan 👋')">
+    Click Me
+  </button>
+</div>
+
+<footer>
+  © 2026 FSFire
+</footer>
+
+</body>
+</html>
